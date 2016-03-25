@@ -1,9 +1,9 @@
 defmodule Hasharet.Repo do
   # use Ecto.Repo, otp_app: :hasharet
+  
   @moduledoc """
     In memory repository
   """
-
   def all(Hasharet.User) do
       [%Hasharet.User{id: "1", name: "Dave", username: "dave", password: "the cat ran down the road!"}]
   end
