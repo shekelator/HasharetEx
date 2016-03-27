@@ -10,7 +10,7 @@ defmodule Hasharet do
       # Start the endpoint when the application starts
       supervisor(Hasharet.Endpoint, []),
       # Start the Ecto repository
-      # supervisor(Hasharet.Repo, []),
+      supervisor(Hasharet.Repo, []),
 
       # Here you could define other workers and supervisors as children
       # worker(Hasharet.Worker, [arg1, arg2, arg3]),

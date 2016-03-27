@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Hasharet!</title>
+    <title>Welcome to Hasharet</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -16,7 +16,8 @@
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">View Calendar</a></li>
+            <li><a href="/">Home</a></li><br/>
+            <li><a href="https://calendar.google.com/calendar/embed?src=ruachisraelma@gmail.com&ctz=America/New_York">View Calendar</a></li>
           </ul>
         </nav>
         <span class="logo"></span>
